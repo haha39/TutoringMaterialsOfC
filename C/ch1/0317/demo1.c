@@ -1,4 +1,4 @@
-/*demo*/
+/*demo1*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -29,9 +29,9 @@ void swap(int a, int b)
 	printf("\nIn swap() ...\n");
 	printf("a = %d, b = %d\n", a, b);
 	
-	temp = a;
-	a = b;
-	b = temp;
+	/*
+	
+	*/
 	
 	printf("End swap() ...\n");
 	printf("a = %d, b = %d\n", a, b);
