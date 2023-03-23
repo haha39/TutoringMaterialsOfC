@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-void show(int [4][4]);
-bool ifFull(int [4][4]);
+void show(int [][4]);
+bool ifFull(int [][4]);
 
 int main()
 {
@@ -122,7 +122,7 @@ int main()
     }
 }
 
-void show(int a[4][4])
+void show(int a[][4])
 {
 	int i, j;
 	
@@ -134,7 +134,7 @@ void show(int a[4][4])
     }
 }
 
-bool ifFull(int a[4][4])
+bool ifFull(int a[][4])
 {
 	int i, j;
 	
