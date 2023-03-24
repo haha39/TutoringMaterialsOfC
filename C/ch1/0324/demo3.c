@@ -2,10 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define SIZE 5
-void show(int size, int *arr);
-void add(int size, int *arr);
-void minus(int size, int *arr);
-void sum(int size, int *arr);
+void show(int , int *);
+void add(int , int *);
+void minus(int , int *);
 
 int main()
 {
@@ -36,7 +35,7 @@ void show(int size, int arr1[]) {
 	printf("\n");
 }
 
-void add(int size, int arr2[]) {
+void add(int size, int *arr2) {
 	int i;
 	
 	for(i = 0; i < size; i++) {
@@ -51,4 +50,5 @@ void minus(int size, int arr3[]) {
 		--(*arr3++);
 	}
 }
+
 
