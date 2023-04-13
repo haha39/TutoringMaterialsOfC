@@ -8,11 +8,7 @@ public class app13_2 {
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("index out of bound!!");
             System.out.println("exception = " + e);
-
-        } finally {
-            System.out.println("this time is always executed!!!");
         }
         System.out.println("end of main()!!!!");
     }
-
 }
