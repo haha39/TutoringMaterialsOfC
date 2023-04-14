@@ -1,5 +1,5 @@
 public class app13_4 {
-    public static int divide(int a, int b) throws AbstractMethodError {
+    public static int divide(int a, int b) throws ArithmeticException {
         int c;
         c = a / b;
         System.out.println(a + "/" + b + "=" + c);
