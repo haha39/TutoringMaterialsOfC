@@ -17,7 +17,8 @@ int main()
   	for (i = 0; i < arrLen1; i++) {
     	for (j = 0; j < arrLen2; j++) {
       		int index = i * arrLen2 + j;
-      		dynArr[index] = index;
+      		//dynArr[index] = index;
+      		*(dynArr + index) = index;
       		printf("%d ", dynArr[index]);
     	}
     	printf("\n"); 
