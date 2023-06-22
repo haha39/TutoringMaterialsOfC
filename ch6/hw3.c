@@ -6,7 +6,7 @@ int main()
 	int *dynArr;
 	int arrLen = 10;
 	
-	dynArr = calloc( arrLen, sizeof(int) );
+	dynArr = calloc(arrLen, sizeof(int));
 	if( dynArr == NULL ) {
 		fprintf(stderr, "Error: unable to allocate required memory\n");
     	return 1;
