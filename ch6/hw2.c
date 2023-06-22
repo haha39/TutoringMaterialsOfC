@@ -8,7 +8,7 @@ int main()
 	int arrLen1 = 10;
 	int arrLen2 = 5;
 
-	dynArr = malloc( arrLen1 * arrLen2 * sizeof(int) );
+	dynArr = malloc(arrLen1 * arrLen2 * sizeof(int));
 
 	if( dynArr == NULL ) {
 		fprintf(stderr, "Error: unable to allocate required memory\n");
