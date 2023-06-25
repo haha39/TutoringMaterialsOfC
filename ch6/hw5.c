@@ -13,7 +13,7 @@ int main()
 		return 1;
 	}
  	
-	memset(dynArr, 100, arrLen * sizeof(int));
+	memset(dynArr, 0, arrLen * sizeof(int));
 	
 	int i;
 	for (i = 0; i < arrLen; i++) {
