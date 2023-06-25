@@ -1,11 +1,16 @@
-#include <>
-#include <>
-//using namespace std;
-
-int main()
+#include<stdio.h>
+#include<stdlib.h> 
+#include<string.h>
+ 
+int main ()
 {
-
-	system("PAUSE");
-	return 0;
+   char str[50];
+ 
+   strcpy(str,"This is string.h library function");
+   puts(str);
+ 
+   memset(str,'$',7);
+   puts(str);
+   
+   return(0);
 }
-
