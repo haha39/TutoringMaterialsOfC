@@ -6,7 +6,7 @@ int main ()
 {
    char str[50];
  
-   strcpy(str,"This is string.h library function");
+   strcpy(str,"this is string.h library function");
    puts(str);
  
    memset(str,'$',7);
@@ -14,3 +14,4 @@ int main ()
    
    return(0);
 }
+
