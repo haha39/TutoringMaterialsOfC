@@ -1,6 +1,5 @@
-#include <>
-#include <>
-//using namespace std;
+#include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
